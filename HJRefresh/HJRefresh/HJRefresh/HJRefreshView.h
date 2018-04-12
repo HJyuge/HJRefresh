@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface HJRefreshView : UIView
+
+@property (nonatomic, weak) UIScrollView *scrollView;
+
 
 @end

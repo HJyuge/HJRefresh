@@ -16,6 +16,7 @@
 		1BDB4122207F50800076F9EE /* HJRefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB4121207F50800076F9EE /* HJRefreshTests.m */; };
 		1BDB412D207F50800076F9EE /* HJRefreshUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB412C207F50800076F9EE /* HJRefreshUITests.m */; };
 		1BDB413D207F522E0076F9EE /* RefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB413C207F522E0076F9EE /* RefreshTableViewController.m */; };
+		1BDB4140207FA4790076F9EE /* HJRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB413F207FA4790076F9EE /* HJRefreshView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		1BDB412E207F50800076F9EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BDB413B207F522E0076F9EE /* RefreshTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RefreshTableViewController.h; sourceTree = "<group>"; };
 		1BDB413C207F522E0076F9EE /* RefreshTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RefreshTableViewController.m; sourceTree = "<group>"; };
+		1BDB413E207FA4790076F9EE /* HJRefreshView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJRefreshView.h; sourceTree = "<group>"; };
+		1BDB413F207FA4790076F9EE /* HJRefreshView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJRefreshView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +144,8 @@
 		1BDB413A207F51690076F9EE /* HJRefresh */ = {
 			isa = PBXGroup;
 			children = (
+				1BDB413E207FA4790076F9EE /* HJRefreshView.h */,
+				1BDB413F207FA4790076F9EE /* HJRefreshView.m */,
 			);
 			path = HJRefresh;
 			sourceTree = "<group>";
@@ -282,6 +287,7 @@
 				1BDB413D207F522E0076F9EE /* RefreshTableViewController.m in Sources */,
 				1BDB4118207F50800076F9EE /* main.m in Sources */,
 				1BDB410A207F50800076F9EE /* AppDelegate.m in Sources */,
+				1BDB4140207FA4790076F9EE /* HJRefreshView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
